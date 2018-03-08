@@ -6,4 +6,4 @@ def test_read():
     assert (check_numeric_data(df) == True)
     assert (check_shape(df.drop('target', axis = 1), df['target']) == True)
     assert (train_data(df.dropna()) == True)
-
+    
